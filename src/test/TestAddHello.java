@@ -12,7 +12,7 @@ public class TestAddHello {
 		ClassToTest cls = new ClassToTest();
 		String a="Tschüss";
 		String result = cls.addHello(a);
-		assertEquals(a+"Hello1", result);
+		assertEquals(a+"Hello", result);
 	}
 
 }
