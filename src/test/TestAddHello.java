@@ -5,6 +5,11 @@ import org.junit.Test;
 
 import main.ClassToTest;
 
+/**
+ * Dies ist ein Komponententest
+ * @author MSI-Dan
+ *
+ */
 public class TestAddHello {
 
 	@Test
@@ -12,7 +17,7 @@ public class TestAddHello {
 		ClassToTest cls = new ClassToTest();
 		String a="Tschüss";
 		String result = cls.addHello(a);
-		assertEquals(a+"Hello", result);
+		assertEquals(a+"Hello1", result);
 	}
 
 }
